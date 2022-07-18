@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TutorialMainActivity"
+    android:orientation="vertical"
+    android:background="#23183a"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tutorial"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:id="@+id/Rb"
+            android:src="@drawable/salu"
+            />
+/*la imagen no me sale de saludando.PNG, busque una forma diferente para que cubriera el espacio*/
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:textSize="30dp"
+            android:text="Tutorial"
+            android:backgroundTint="@color/purple_700"
+            android:id="@+id/btntutorial"
+            android:onClick="Confirmar"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
